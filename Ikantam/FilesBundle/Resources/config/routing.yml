@@ -1,0 +1,17 @@
+i_uploader_upload:
+    pattern:  /uploader/upload
+    defaults: { _controller: IkantamFilesBundle:Upload:index }
+    options:
+        expose: true
+
+i_uploader_upload_plus:
+    pattern:  /uploader/test_plus
+    defaults: { _controller: IkantamFilesBundle:Upload:testPlus }
+
+i_uploader_upload_plus_ui:
+    pattern:  /uploader/test_plus_ui
+    defaults: { _controller: IkantamFilesBundle:Upload:testPlusUi }
+
+i_uploader_test:
+    pattern:  /uploader/test
+    defaults: { _controller: IkantamFilesBundle:Upload:test }
