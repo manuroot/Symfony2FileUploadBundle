@@ -5,7 +5,7 @@ Installation:
 2) Enable bundle (add line new Ikantam\FilesBundle\IkantamFilesBundle() into your app/AppKernel.php);
 
 Usage: 
-1) You have service named 'Uploader' - this is upload handler;
+1) You have service named 'Uploader' - this is upload handler; <br>
 2) Get service by calling $uploadHandler = $this->get('i_uploader');
 3) Get upload data:  $data = $uploadHandler->upload();
 4) Show response result: return new JsonResponse($data, 200);
